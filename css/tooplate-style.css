@@ -295,6 +295,9 @@ b, strong {
 .dark-mode {
   background: #0c0c0d;
 }
+.dark-mode p {
+  color: #f8f8f8;
+}
 .dark-mode .navbar-light .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.8);
 }
@@ -319,6 +322,15 @@ b, strong {
 .dark-mode .owl-carousel .owl-nav button.owl-prev,
 .dark-mode .owl-carousel button.owl-dot {
   color: #ffffff;
+}
+.dark-mode .animated-item, .dark-mode .timeline-info small, .dark-mode .social-links .uil {
+  color: #7cbbff;
+}
+.dark-mode .timeline-yr {
+  background: #7cbbff;
+}
+.dark-mode .timeline-yr span {
+  color: #212529;
 }
 
 .timeline-wrapper {
