@@ -13,11 +13,11 @@
 
     // PROJECT CAROUSEL
     $('.owl-carousel').owlCarousel({
-    	items: 1,
-	    loop:true,
-	    margin:10,
-	    nav:true
-	});
+      	items: 1,
+  	    loop:true,
+  	    margin:100,
+  	    nav:true
+  	});
 
     // SMOOTHSCROLL
     $(function() {
