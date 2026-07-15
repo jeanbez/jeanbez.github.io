@@ -619,10 +619,34 @@ a:hover {
 }
 
 .pub-item {
+  position: relative;
+  overflow: hidden;
   padding: 1.25rem 1.5rem;
   border-radius: 12px;
   transition: background 0.2s;
   background: rgba(20, 184, 166, 0.04);
+}
+
+.pub-ribbon {
+  position: absolute;
+  top: 1.4rem;
+  right: -2.6rem;
+  width: 9rem;
+  text-align: center;
+  transform: rotate(45deg);
+  padding: 0.22rem 0;
+  background: var(--teal-500);
+  color: var(--navy-950);
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  pointer-events: none;
+}
+
+.pub-item:has(.pub-ribbon) .pub-meta {
+  padding-right: 3.5rem;
 }
 
 .pub-item:hover {
